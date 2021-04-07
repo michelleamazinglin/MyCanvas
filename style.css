@@ -8,9 +8,58 @@ canvas {
 
 .red-button {
   background-color: red;
+  width: 70px;
+  height: 30px;
+  outline: none;
 }
 
 .blue-button {
   background-color: blue;
   color: white;
+  width: 70px;
+  height: 30px;
+  outline: none;
+}
+
+.yellow-button{
+  background-color: yellow;
+  width: 70px;
+  height: 30px;
+  outline: none;
+}
+
+.green-button{
+  background-color: green;
+  width: 70px;
+  height: 30px;
+  outline: none;
+}
+
+.purple-button{
+  background-color: purple;
+  width: 70px;
+  height: 30px;
+  outline: none;
+}
+
+.orange-button{
+  background-color: orange;
+  width: 70px;
+  height: 30px;
+  outline: none;
+}
+
+.black-button{
+  background-color: black;
+  color: white;
+  width: 70px;
+  height: 30px;
+  outline: none;
+}
+
+.white-button{
+  background-color: white;
+  width: 70px;
+  height: 30px;
+outline: none;  
 }

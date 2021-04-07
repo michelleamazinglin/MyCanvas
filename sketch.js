@@ -7,8 +7,6 @@ let orangeButton;
 let slider;
 let rSlider, gSlider, bSlider;
 
-  
-
 function setup() {
   createCanvas(windowWidth, windowHeight);
   textSize(12);
@@ -23,12 +21,6 @@ function setup() {
   bSlider = createSlider(0, 255, 255);
   bSlider.position(120, 125);
   
-  
-  
-  
-  
-
-  
   noFill();
   //   stroke slider
   slider = createSlider(1, 10, 2);
@@ -41,34 +33,40 @@ function setup() {
   redButton.addClass('red-button');
   
   let blueButton = createButton("blue");
-  blueButton.position(60, 30);
+  blueButton.position(90, 30);
   blueButton.mousePressed(blueBackground);
   blueButton.addClass('blue-button');
   
   let yellowButton = createButton("yellow");
-  yellowButton.position(110, 30);
+  yellowButton.position(170, 30);
   yellowButton.mousePressed(yellowBackground);
+  yellowButton.addClass('yellow-button');
   
   
   let greenButton = createButton("green");
-  greenButton.position(175, 30);
+  greenButton.position(250, 30);
   greenButton.mousePressed(greenBackground);
+  greenButton.addClass('green-button');
   
   let purpleButton = createButton("purple");
-  purpleButton.position(235, 30);
+  purpleButton.position(330, 30);
   purpleButton.mousePressed(purpleBackground);
+  purpleButton.addClass('purple-button')
   
   let orangeButton = createButton("orange");
-  orangeButton.position(300, 30);
+  orangeButton.position(410, 30);
   orangeButton.mousePressed(orangeBackground); 
+  orangeButton.addClass('orange-button')
   
   let blackButton = createButton("Black");
-  blackButton.position(370, 30);
+  blackButton.position(490, 30);
   blackButton.mousePressed(blackBackground);
+  blackButton.addClass('black-button')
   
   let whiteButton = createButton("White");
-  whiteButton.position(435, 30);
+  whiteButton.position(570, 30);
   whiteButton.mousePressed(whiteBackground);
+  whiteButton.addClass('white-button')
   
   let saveButton = createButton("save your drawing");
   saveButton.position(10, 220);

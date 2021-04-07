@@ -119,6 +119,10 @@ function redBackground() {
   textSize(15); 
   text('To erase drawing press the C key', 10, 190);
   text('Choose a background color before you start drawing:', 10, 20);
+  noFill();
+  stroke("black");
+  strokeWeight(2);
+  rect(10,260,windowWidth - 20, windowHeight - 270);
   print("Change stroke to red");
 }
 
@@ -132,6 +136,10 @@ function blueBackground() {
   textSize(15);
   text('To erase drawing press the C key', 10, 190);
   text('Choose a background color before you start drawing:', 10, 20);
+  noFill();
+  stroke("black");
+  strokeWeight(2);
+  rect(10,260,windowWidth - 20, windowHeight - 270);
   print("Change stroke to blue");
 }
 
@@ -145,6 +153,10 @@ function yellowBackground() {
   textSize(15);
   text('To erase drawing press the C key', 10, 190);
   text('Choose a background color before you start drawing:', 10, 20);
+  noFill();
+  stroke("black");
+  strokeWeight(2);
+  rect(10,260,windowWidth - 20, windowHeight - 270);
   print("Change stroke to yellow");
 }
 
@@ -158,6 +170,10 @@ function greenBackground() {
   textSize(15);
   text('To erase drawing press the C key', 10, 190);
   text('Choose a background color before you start drawing:', 10, 20);
+  noFill();
+  stroke("black");
+  strokeWeight(2);
+  rect(10,260,windowWidth - 20, windowHeight - 270);
   print("Change stroke to green");
 }
 
@@ -171,6 +187,10 @@ function purpleBackground() {
   textSize(15);
   text('To erase drawing press the C key', 10, 190);
   text('Choose a background color before you start drawing:', 10, 20);
+  noFill();
+  stroke("black");
+  strokeWeight(2);
+  rect(10,260,windowWidth - 20, windowHeight - 270);
   print("Change stroke to purple");
 }
 
@@ -184,6 +204,10 @@ function orangeBackground() {
   textSize(15);
   text('To erase drawing press the C key', 10, 190);
   text('Choose a background color before you start drawing:', 10, 20);
+  noFill();
+  stroke("black");
+  strokeWeight(2);
+  rect(10,260,windowWidth - 20, windowHeight - 270);
   print("Change stroke to orange");
 }
 
@@ -206,6 +230,10 @@ function keyPressed() {
     fill("black")
     text('To erase drawing press the C key', 10, 190);
     text('Choose a background color before you start drawing:', 10, 20);
+    noFill();
+    stroke("black");
+    strokeWeight(2);
+    rect(10,260,windowWidth - 20, windowHeight - 270);
   }
   
 }

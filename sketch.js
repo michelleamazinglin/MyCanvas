@@ -156,7 +156,7 @@ function blueBackground() {
   background("blue");
   strokeWeight(0);
   textSize(12);
-  fill("black")
+  fill("white")
   text('Stoke Size', 10, 80);
   text('Stroke Color', 10, 110);
   textSize(15);
@@ -224,7 +224,7 @@ function purpleBackground() {
   background("purple");
   strokeWeight(0);
   textSize(12);
-  fill("black")
+  fill("white")
   text('Stoke Size', 10, 80);
   text('Stroke Color', 10, 110);
   textSize(15);

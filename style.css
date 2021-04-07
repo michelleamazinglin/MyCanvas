@@ -11,6 +11,7 @@ canvas {
   width: 70px;
   height: 30px;
   outline: none;
+  border: 2px solid red;
 }
 
 .blue-button {
@@ -19,6 +20,7 @@ canvas {
   width: 70px;
   height: 30px;
   outline: none;
+  border: 2px solid blue;
 }
 
 .yellow-button{
@@ -26,6 +28,7 @@ canvas {
   width: 70px;
   height: 30px;
   outline: none;
+  border: 2px solid yellow;
 }
 
 .green-button{
@@ -33,6 +36,7 @@ canvas {
   width: 70px;
   height: 30px;
   outline: none;
+  border: 2px solid green;
 }
 
 .purple-button{
@@ -40,6 +44,8 @@ canvas {
   width: 70px;
   height: 30px;
   outline: none;
+  border: 2px solid purple;
+  color: white;
 }
 
 .orange-button{
@@ -47,6 +53,7 @@ canvas {
   width: 70px;
   height: 30px;
   outline: none;
+  border: 2px solid orange;
 }
 
 .black-button{
@@ -55,11 +62,13 @@ canvas {
   width: 70px;
   height: 30px;
   outline: none;
+  border: 2px solid black;
 }
 
 .white-button{
   background-color: white;
   width: 70px;
   height: 30px;
-outline: none;  
+  outline: none;  
+  border: 2px solid white;
 }

@@ -61,7 +61,7 @@ function setup() {
   
   saveButton = createButton("save your drawing");
   saveButton.position(10, 220);
-  saveButton.mousePressed(save);
+  saveButton.mousePressed(saveImage);
   
   strokeWeight(0);
   textSize(12);
@@ -74,7 +74,10 @@ function setup() {
   text('To erase drawing press the C key', 10, 190);
   text('Choose a background color before you start drawing:', 10, 20);
 
-  
+  noFill();
+  stroke("black");
+  strokeWeight(2);
+  rect(10,260,windowWidth - 20, windowHeight - 270);
 }
 
 
@@ -184,9 +187,10 @@ function orangeBackground() {
   print("Change stroke to orange");
 }
 
-function save(){
+function saveImage(){
     //save out to a file
-    save('my-amazing-drawing.png');
+    let img = get(10,260,windowWidth - 20, windowHeight - 270);
+    img.save('amazing-Drawing.png');
 }
 
 function keyPressed() {

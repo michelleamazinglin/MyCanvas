@@ -35,39 +35,42 @@ function setup() {
   slider.position(80, 66);
   
   
-  redButton = createButton("Red");
+  let redButton = createButton("Red");
   redButton.position(10, 30);
   redButton.mousePressed(redBackground);
+  redButton.addClass('red-button');
   
-  blueButton = createButton("blue");
+  let blueButton = createButton("blue");
   blueButton.position(60, 30);
   blueButton.mousePressed(blueBackground);
+  blueButton.addClass('blue-button');
   
-  yellowButton = createButton("yellow");
+  let yellowButton = createButton("yellow");
   yellowButton.position(110, 30);
   yellowButton.mousePressed(yellowBackground);
   
-  greenButton = createButton("green");
+  
+  let greenButton = createButton("green");
   greenButton.position(175, 30);
   greenButton.mousePressed(greenBackground);
   
-  purpleButton = createButton("purple");
+  let purpleButton = createButton("purple");
   purpleButton.position(235, 30);
   purpleButton.mousePressed(purpleBackground);
   
-  orangeButton = createButton("orange");
+  let orangeButton = createButton("orange");
   orangeButton.position(300, 30);
   orangeButton.mousePressed(orangeBackground); 
   
-  blackButton = createButton("Black");
+  let blackButton = createButton("Black");
   blackButton.position(370, 30);
   blackButton.mousePressed(blackBackground);
   
-  whiteButton = createButton("White");
+  let whiteButton = createButton("White");
   whiteButton.position(435, 30);
   whiteButton.mousePressed(whiteBackground);
   
-  saveButton = createButton("save your drawing");
+  let saveButton = createButton("save your drawing");
   saveButton.position(10, 220);
   saveButton.mousePressed(saveImage);
   

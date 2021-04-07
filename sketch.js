@@ -59,6 +59,9 @@ function setup() {
   orangeButton.position(290, 30);
   orangeButton.mousePressed(orangeBackground); 
   
+  saveButton = createButton("save your drawing");
+  saveButton.position(10, 220);
+  saveButton.mousePressed(save);
   
   strokeWeight(0);
   textSize(12);
@@ -179,6 +182,11 @@ function orangeBackground() {
   text('To erase drawing press the C key', 10, 190);
   text('Choose a background color before you start drawing:', 10, 20);
   print("Change stroke to orange");
+}
+
+function save(){
+    //save out to a file
+    save('my-amazing-drawing.png');
 }
 
 function keyPressed() {

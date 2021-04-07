@@ -48,16 +48,24 @@ function setup() {
   yellowButton.mousePressed(yellowBackground);
   
   greenButton = createButton("green");
-  greenButton.position(170, 30);
+  greenButton.position(175, 30);
   greenButton.mousePressed(greenBackground);
   
   purpleButton = createButton("purple");
-  purpleButton.position(230, 30);
+  purpleButton.position(235, 30);
   purpleButton.mousePressed(purpleBackground);
   
   orangeButton = createButton("orange");
-  orangeButton.position(290, 30);
+  orangeButton.position(300, 30);
   orangeButton.mousePressed(orangeBackground); 
+  
+  blackButton = createButton("Black");
+  blackButton.position(370, 30);
+  blackButton.mousePressed(blackBackground);
+  
+  whiteButton = createButton("White");
+  whiteButton.position(435, 30);
+  whiteButton.mousePressed(whiteBackground);
   
   saveButton = createButton("save your drawing");
   saveButton.position(10, 220);
@@ -126,6 +134,23 @@ function redBackground() {
   print("Change stroke to red");
 }
 
+function blackBackground() {
+  background("black");
+  strokeWeight(0);
+  textSize(12);
+  fill("white")
+  text('Stoke Size', 10, 80);
+  text('Stroke Color', 10, 110);
+  textSize(15); 
+  text('To erase drawing press the C key', 10, 190);
+  text('Choose a background color before you start drawing:', 10, 20);
+  noFill();
+  stroke("white");
+  strokeWeight(2);
+  rect(10,260,windowWidth - 20, windowHeight - 270);
+  print("Change stroke to red");
+}
+
 function blueBackground() {
   background("blue");
   strokeWeight(0);
@@ -145,6 +170,23 @@ function blueBackground() {
 
 function yellowBackground() {
   background("yellow");
+  strokeWeight(0);
+  textSize(12);
+  fill("black")
+  text('Stoke Size', 10, 80);
+  text('Stroke Color', 10, 110);
+  textSize(15);
+  text('To erase drawing press the C key', 10, 190);
+  text('Choose a background color before you start drawing:', 10, 20);
+  noFill();
+  stroke("black");
+  strokeWeight(2);
+  rect(10,260,windowWidth - 20, windowHeight - 270);
+  print("Change stroke to yellow");
+}
+
+function whiteBackground() {
+  background("white");
   strokeWeight(0);
   textSize(12);
   fill("black")

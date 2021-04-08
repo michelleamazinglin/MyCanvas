@@ -69,8 +69,9 @@ function setup() {
   whiteButton.addClass('white-button')
   
   let saveButton = createButton("save your drawing");
-  saveButton.position(10, 220);
+  saveButton.position(10, 205);
   saveButton.mousePressed(saveImage);
+  saveButton.addClass('save-button');
   
   strokeWeight(0);
   textSize(12);
